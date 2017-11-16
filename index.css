@@ -1,0 +1,23 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+#start{
+    position: relative;
+    width: 100vh;
+    height:100vh;
+    user-select: none;
+    font-size: 10vw;
+    margin:auto;
+    text-align: center;
+}
+
+#number{
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    user-select: none;
+    font-size: 30vw;
+    margin: auto;
+    text-align: center;
+}
