@@ -26,17 +26,18 @@ var startGame = function(){
     }
 }
 
-var buildDeck = function(){
-    for (i = 0; i < fullDeck.length; i++){
-        if (fullDeck[i].number = 1){
-            for (i = 0; i < 5; i++){
+var buildDeck = function() {
+    for (i = 0; i < fullDeck.length; i++) {
+        if (fullDeck[i].number = 1) {
+            for (i = 0; i < 5; i++) {
                 deck.push(fulldeck[i]);
             }
-        }else {
-            for (i = 0; i < 4; i++){
+        } else {
+            for (i = 0; i < 4; i++) {
                 deck.push(fulldeck[i]);
             }
         }
+    }
 }
 
 var drawCard = function(){
