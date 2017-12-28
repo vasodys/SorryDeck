@@ -27,14 +27,14 @@ var startGame = function(){
 }
 
 var buildDeck = function() {
-    for (i = 0; i < fullDeck.length; i++) {
+    for (var i = 0; i < fullDeck.length; i++) {
         if (fullDeck[i].number = 1) {
-            for (i = 0; i < 5; i++) {
-                deck.push(fullDeck[i]);
+            for (var j = 0; j < 5; j++) {
+                deck.push(fullDeck[j]);
             }
         } else {
-            for (i = 0; i < 4; i++) {
-                deck.push(fullDeck[i]);
+            for (var k = 0; k < 4; k++) {
+                deck.push(fullDeck[k]);
             }
         }
     }
