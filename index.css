@@ -4,8 +4,8 @@
 }
 #start{
     position: relative;
-    width: 100vh;
-    
+    width: 100vw;
+
     user-select: none;
     font-size: 10vw;
     margin:auto;
@@ -14,19 +14,19 @@
 
 #card{
     position: relative;
-    width: 100vh;
+    width: 100vw;
 
     user-select: none;
-    font-size: 30vw;
+    font-size: 30vmin;
     margin: auto;
     text-align: center;
 }
 #instructions{
     position: relative;
-    width: 100vh;
+    width: 100vw;
 
     user-select: none;
-    font-size: 5vw;
+    font-size: 5vmin;
     margin: auto;
     text-align: center;
 }
