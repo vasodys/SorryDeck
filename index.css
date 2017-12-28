@@ -12,9 +12,9 @@
     text-align: center;
 }
 
-#number{
+#card{
     position: relative;
-    width: 50vh;
+    width: 100vh;
     height: 50vh;
     user-select: none;
     font-size: 30vw;
